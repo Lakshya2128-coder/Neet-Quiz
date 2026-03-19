@@ -1,9 +1,11 @@
 @/components → ./components
 import React, { useState, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Button } from "@/components/ui/button";
+// import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "./components/ui/card";
+import { Button } from "./components/ui/button";
+import { Input } from "./components/ui/input";
 const QUESTION_TIME = 20;
 
 export default function NeetQuiz() {
